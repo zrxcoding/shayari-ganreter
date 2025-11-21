@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f3e9d2; /* paper book theme */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    background: #fffdf6;
+    border: 2px solid #d6c9a3;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.17);
+}
+
+#shayari-box {
+    white-space: pre-line;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #413d3d;
+}
+
+button {
+    padding: 12px 22px;
+    margin: 5px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#next-btn {
+    background: #f7c84c;
+}
+
+#copy-btn {
+    background: #d38e8e;
+}
