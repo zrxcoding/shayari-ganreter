@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shayari Book</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>📖 Shayari Book</h1>
+    <select id="sectionSelect">
+      <option value="love">❤️ Love Shayari</option>
+      <option value="sad">💔 Sad Shayari</option>
+      <option value="attitude">🔥 Attitude Shayari</option>
+      <option value="dard">🥀 Dard Shayari</option>
+      <option value="friendship">🤝 Friendship Shayari</option>
+    </select>
+  </header>
+
+  <main>
+    <div class="paper" id="shayariBox"></div>
+
+    <div class="controls">
+      <button id="prevBtn">⬅ Previous</button>
+      <button id="nextBtn">Next ➡</button>
+      <button id="copyBtn">📋 Copy</button>
+    </div>
+
+    <div class="ai-box">
+      <input id="aiInput" placeholder="Enter name / keyword for AI Shayari..." />
+      <button id="aiBtn">✨ AI Generate</button>
+    </div>
+
+    <p id="status"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
